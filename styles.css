@@ -1,0 +1,42 @@
+body {
+	background: white;
+	margin: 0;
+}
+
+.wrapper {
+	font-family: Arial;
+	margin: 0 auto;
+	width: 600px;
+}
+
+.containers {
+	display: flex;
+	justify-content: space-between ;
+}
+
+.container1 {
+	box-sizing: border-box;
+	position: relative;
+	top: 10px;
+	margin: 0;
+	padding-left: 10px;
+
+}
+
+.container2 {
+	box-sizing: border-box;
+	position: relative;
+	color: darkgrey;
+	top: 37px;
+	margin: 0;
+	padding-right: 10px;
+}
+
+#myImag {
+	width: 100%;
+}
+
+.container3 {
+	padding: 10px;
+	margin-bottom: 10px;
+}
